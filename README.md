@@ -1,4 +1,4 @@
-thecampaign
+The Campaign
 ===========
 
-Website for Krissy V
+Website for Chrissy Voskerichian.
