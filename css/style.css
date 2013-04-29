@@ -155,3 +155,27 @@ div.about-body {
 	border-bottom: 2px solid #eee;
 	margin-bottom: 30px;
 }
+
+/* Media Page */
+
+.media-block {
+	border-bottom: 4px solid #eee;
+	padding: 10px;
+	margin-bottom: 10px;
+	height: 125px;
+}
+
+.media-block:hover {
+	background-color: #eee;
+}
+
+.media-headline {
+	padding-bottom: 10px;
+}
+
+.media-body {
+	padding-top: 20px;
+	width: 90%;
+	font-size: 90%;
+	margin: 0 auto;
+}
