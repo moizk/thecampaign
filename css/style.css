@@ -69,6 +69,11 @@ div.footer ul {
 	margin-left: 0px;
 }
 
+div.footer ul li a  {
+	text-decoration: none;
+	color: #34495e;
+}
+
 /* Jumbotron Area */
 
 div.jumbotron {
