@@ -1,6 +1,6 @@
 div.header {
 	height: 200px;
-	background-color: #073664;
+	background-color: #0a4e90;
 }
 
 div.header .logo {
@@ -30,6 +30,10 @@ div.navigation ul li a {
 }
 
 div.navigation ul li a:hover {
+	background-color: #db3c14;
+}
+
+div.navigation #donate {
 	background-color: #db3c14;
 }
 
