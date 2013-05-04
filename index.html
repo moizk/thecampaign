@@ -8,6 +8,14 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=232074133585049";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
     <div class="header">
       <div class="container">
         <div class="logo">
@@ -30,7 +38,7 @@
       <img src="img/talk.jpg">
     </div>
     <div class="row">
-      <div class="span9 pull-left news">
+      <div class="span8 pull-left news">
         <h3>Recent News</h3>
         <div class="story">
           <h5>Chrissy V announces her campaign! </h5>
@@ -42,8 +50,9 @@
         </div>
         <br>
       </div>
-      <div class="span3 pull-left social">
+      <div class="span4 pull-left social">
         <h3>Social</h3>
+        <div class="fb-like" data-href="https://www.facebook.com/ElectChrissy" data-send="true" data-width="220" data-show-faces="true" data-font="arial"></div>
         <div class="tweet">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at posuere tortor. Nulla tempus orci sit amet nisi feugiat euismod. Ut tristique convallis lobortis. Mauris vel lorem diam. Sed ac scelerisque neque. Praesent rutrum varius neque in elementum. Sed in dui id quam vulputate aliquam a in tellus. Cras a nisl urna, eget lacinia nisl. In eu tincidunt arcu.<br> <span class="pull-right">@votechrissy</span></div>
       </div>
     </div>
@@ -73,7 +82,7 @@
         </div>
       </div>
       <br><small>© 2013 Chrissy Voskerichian. All rights reserved.</small><br>
-      <img src="img/facebook.png">
+      <a href="http://www.facebook.com/electchrissy"><img src="img/facebook.png"></a>
       <img src="img/twitter.png">
       </div>
     </div>
