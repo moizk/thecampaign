@@ -99,6 +99,11 @@ div.news h3 {
 	width: 90%;
 }
 
+div.news blockquote {
+	width: 80%;
+	margin: 25px auto 25px auto;
+}
+
 div.story {
 	width: 84%;
 	border-bottom: 2px solid #eee;
