@@ -82,6 +82,21 @@ div.jumbotron {
 
 /*Below Jumbo*/
 
+div.nyt_video {
+	margin-top: 20px;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+
+div.nyt_video h4 {
+	text-align: center;
+	padding-top: 10px;
+}
+
+div.nyt_video a {
+	text-decoration: none;
+}
+
 div.news {
 
 }
